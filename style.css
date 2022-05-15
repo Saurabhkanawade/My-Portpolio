@@ -1,6 +1,7 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,11 @@
 html{
     scroll-behavior: smooth;
 }
+.insta{
+    margin-left: 100px;
+    margin-top: 20px;
 
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -166,8 +171,9 @@ section .title::after{
 .home{
     display: flex;
     background: url("assets/css/Background saurabh.png") no-repeat center;
-        background: url("assets/css/Background saurabh.png") no-repeat center;
-
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     height: 100vh;
     color: #fff;
     min-height: 500px;
