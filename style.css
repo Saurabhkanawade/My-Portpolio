@@ -30,6 +30,7 @@ html{
     transition: 0.8s;
     float: right;
     font-family: cursive;
+
 }
 .channel{
     margin-left: 120px;
@@ -37,6 +38,10 @@ html{
     margin-bottom: 20px;
     background-color:crimson ;
     border: 2px solid red;
+    display: flex;
+    object-fit: cover;
+    border-radius: 6px;
+
 }
 .insta{
     margin-left: 120px;
@@ -206,7 +211,7 @@ section .title::after{
     color: #fff;
     min-height: 500px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: flex;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
