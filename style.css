@@ -11,6 +11,33 @@
 html{
     scroll-behavior: smooth;
 }
+.pchannel{
+    float: right;
+    margin-right: 200px;
+    margin-top: 70px;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+#blink {
+    margin-right: 100px;
+    font-size: 43px;
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: bold;
+    color: #fbff00;
+    transition: 0.8s;
+    float: right;
+    font-family: cursive;
+}
+.channel{
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:crimson ;
+    border: 2px solid red;
+}
 .insta{
     margin-left: 120px;
     margin-top: 20px;
