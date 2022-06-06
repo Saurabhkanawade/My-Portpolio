@@ -227,7 +227,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("assets/css/Background saurabh.png") no-repeat center;
+    background: url("assets/css/Background\ saurabh.png") no-repeat center;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
